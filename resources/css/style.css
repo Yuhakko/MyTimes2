@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  padding-left: 12px;
+  font-size: 14px;
+  color: MediumAquamarine;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  display: block;
+}
+
+span a{
+  padding: 12px;
+  color: black;
+}
