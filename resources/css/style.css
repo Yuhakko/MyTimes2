@@ -31,22 +31,40 @@ span a{
   color: black;
 }
 
-.main.container{
+.maincontainer{
   display: flex;
+  border: 1px solid black;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.columnlarge{
+  display: flex;
+  border: 1px solid black;
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.columnmedium{
+  display: flex;
+  border: 1px solid black;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.columnsmall{
+  display: flex;
+  border: 1px solid black;
+  width: 240px;
+  flex-wrap: wrap;
+}
+
+.article6
+.article1
+{
   border: 1px solid black;
 }
 
-.column.large{
-  display: flex;
-  border: 1px solid black;
-}
-
-.column.medium{
-  display: flex;
-  border: 1px solid black;
-}
-
-.column.small{
-  display: flex;
-  border: 1px solid black;
+img{
+  
 }
