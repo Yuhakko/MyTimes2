@@ -7,8 +7,13 @@ header{
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 16px;
+  padding-top: 0px;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+
 }
 
 .title{
@@ -24,6 +29,7 @@ header{
 
 nav{
   display: block;
+  padding-right: 68px;
 }
 
 span a{
@@ -36,35 +42,45 @@ span a{
   border: 1px solid black;
   flex-grow: 1;
   justify-content: space-around;
+  padding-top: 116px;
 }
 
 .columnlarge{
   display: flex;
   border: 1px solid black;
   width: 630px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  
 }
 
 .columnmedium{
   display: flex;
   border: 1px solid black;
   width: 300px;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .columnsmall{
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
   width: 240px;
-  flex-wrap: wrap;
 }
 
-.article6
 .article1
+.article2
+.article3
+.article4
+.article5
+.article6
+.article7
+.article8
 {
   border: 1px solid black;
 }
 
-img{
-  
+#titleimage1{
+  margin-top: 0px;
+  background-image: url(../images/img-story-main.png);
+  height: 300px;
 }
